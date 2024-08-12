@@ -2,11 +2,9 @@ import asyncio
 from aiogram import F,Router,Dispatcher
 from aiogram.filters import CommandStart,Command
 from aiogram.types import Message
-# from aiogram import Bot, Dispatcher
 from datetime import datetime
 
 #import models
-import app.components.keyboards as kb 
 from app.lstm.price_forecast import price_forecast
 
 
@@ -124,7 +122,6 @@ async def get_forecast(message: Message):
     # command_text = message.text
     
     command_text = message.text.strip()
-    # Разделяем команду и аргументы
     parts = command_text.split(maxsplit=1)
 
     if len(parts) == 1:
@@ -137,13 +134,11 @@ async def get_forecast(message: Message):
         await message.answer("Узнать подробнее про активы поможет команда: /info")
     
     elif len(parts) == 2:
-        # Пользователь ввёл команду и один аргумент
         _, asset = parts
         now = datetime.now()
         formatted_date = now.strftime('%Y-%m-%d')
 
         def search(text):
-            # Поиск описания актива в словаре
             return assets.get(text, False)
 
         descriptions = search(asset)
