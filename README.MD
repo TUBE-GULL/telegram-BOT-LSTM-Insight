@@ -2,25 +2,44 @@
 
 <h2 align="center">Used Libraries</h2>
 <div align="center">
- <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="60" height="60"/>
+ <a href="https://www.python.org" target="_blank" rel="noreferrer" style="display: inline-block;"> 
+   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="60" height="60"/>
+ </a>
 
-<a href="https://numpy.org/" target="_blank" rel="noreferrer"><img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original-wordmark.svg" title="Numpy" alt="Numpy" width="60" height="60"/> </a>
+ <a href="https://numpy.org/" target="_blank" rel="noreferrer" style="display: inline-block;">
+   <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original-wordmark.svg" title="Numpy" alt="Numpy" width="60" height="60"/> 
+ </a>
 
-<a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer"><img src="https://github.com/devicons/devicon/blob/master/icons/tensorflow/tensorflow-original.svg" title="tensorflow" alt="tensorflow" width="60" hight="60"> </a>
+ <a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer" style="display: inline-block;">
+   <img src="https://github.com/devicons/devicon/blob/master/icons/tensorflow/tensorflow-original.svg" title="tensorflow" alt="tensorflow" width="60" height="60"> 
+ </a>
 
-<a href="https://keras.io/" target="_blank" rel="noreferrer"><img src="https://github.com/devicons/devicon/blob/master/icons/keras/keras-original.svg" title="keras" alt="keras" width="60" hight="60"> </a>
+ <a href="https://keras.io/" target="_blank" rel="noreferrer" style="display: inline-block;">
+   <img src="https://github.com/devicons/devicon/blob/master/icons/keras/keras-original.svg" title="keras" alt="keras" width="60" height="60"> 
+ </a>
 
-<a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"><img src="https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original.svg" title="Pandas" alt="Pandas" width="60" height="60"/> </a>
+ <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer" style="display: inline-block;">
+   <img src="https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original.svg" title="Pandas" alt="Pandas" width="60" height="60"/> 
+ </a>
 
- <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"><img src="https://github.com/devicons/devicon/blob/master/icons/scikitlearn/scikitlearn-original.svg" title="sklearn" alt="sklearn" width="60" height="60"/></a>
+ <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer" style="display: inline-block;">
+   <img src="https://github.com/devicons/devicon/blob/master/icons/scikitlearn/scikitlearn-original.svg" title="sklearn" alt="sklearn" width="60" height="60"/>
+ </a>
 
- <a href="https://matplotlib.org/" target="_blank" rel="noreferrer"><img src="https://github.com/devicons/devicon/blob/master/icons/matplotlib/matplotlib-original.svg" title="plotly" alt="pltly" width="60" height="60"/></a>
+ <a href="https://matplotlib.org/" target="_blank" rel="noreferrer" style="display: inline-block;">
+   <img src="https://github.com/devicons/devicon/blob/master/icons/matplotlib/matplotlib-original.svg" title="matplotlib" alt="matplotlib" width="60" height="60"/>
+ </a>
 
- <a href="https://plotly.com/" target="_blank" rel="noreferrer"><img src="https://github.com/devicons/devicon/blob/master/icons/plotly/plotly-original.svg" title="plotly" alt="pltly" width="60" height="60"/></a>
+ <a href="https://plotly.com/" target="_blank" rel="noreferrer" style="display: inline-block;">
+   <img src="https://github.com/devicons/devicon/blob/master/icons/plotly/plotly-original.svg" title="plotly" alt="plotly" width="60" height="60"/>
+ </a>
 
-<a href="https://docs.aiogram.dev/en/latest/index.html" target="aiogram"><img src="https://docs.aiogram.dev/en/latest/_static/logo.png" alt="aiogram" width="60" height="60"/></a>
+ <a href="https://docs.aiogram.dev/en/latest/index.html" target="aiogram" style="display: inline-block;">
+   <img src="https://docs.aiogram.dev/en/latest/_static/logo.png" alt="aiogram" width="60" height="60"/>
+ </a>
 
 </div>
+
 
 
 ## Description
@@ -69,6 +88,6 @@ $ python3 main.py
 $ python main.py
 ```
 
-##P.S
+## P.S
 
 <P>In my opinion, the project serves as a solid foundation for analyzing stock and other markets. Existing trading strategies can be adapted and applied to this model, allowing for more comprehensive and accurate predictions. Since the model has not yet been thoroughly developed due to time constraints, there is potential for further improvement and optimization in the future.</P>
