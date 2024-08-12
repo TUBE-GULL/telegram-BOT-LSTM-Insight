@@ -56,13 +56,13 @@ This project is a Telegram bot that uses an LSTM (Long Short-Term Memory) model 
 <h2 align="center">Instructions</h2>
 
 ```bash
-1 /start - start bot 
+1 "/start" - start bot 
 
-2 /forecast "your choice" - specify the asset after the command. For example: /forecast TSLA"
+2 "/forecast" "your choice" - specify the asset after the command. For example: "/forecast TSLA"
 
-3 /info - list of what can be requested
+3 "/info" - list of what can be requested
 
-4 /help - set commands to the bot
+4 "/help" - set commands to the bot
 ```
 
 ## Installation dependencies
